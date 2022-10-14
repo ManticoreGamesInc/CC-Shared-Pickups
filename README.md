@@ -2,8 +2,8 @@
 
 # Shared Pickups
 
-[![Build Status](https://github.com/ManticoreGamesInc/Bootcamp-Shared-Pickups/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/Bootcamp-Shared-Pickups/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/Bootcamp-Shared-Pickups?style=plastic)
+[![Build Status](https://github.com/ManticoreGamesInc/CC-Shared-Pickups/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-Shared-Pickups/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-Shared-Pickups?style=plastic)
 
 ![Preview](/Screenshots/Main.png)
 
