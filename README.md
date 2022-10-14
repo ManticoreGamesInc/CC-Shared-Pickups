@@ -17,7 +17,7 @@ This component can be found under the **CoreAcademy** account on Community Conte
 
 The Shared Pickups component will allow you to place pickups in your game that can be picked up by all players. Instead of pickups becoming a race to who can get them first, every player will have a chance to collect the pickup.
 
-This component makes use of the dormancy feature so that it can still be networked, but not replicate.
+This component makes use of the dormancy feature so that it can still be networked but not replicated.
 
 ## How to use
 
