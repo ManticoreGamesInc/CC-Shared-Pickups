@@ -77,7 +77,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RespawnTime"
-            Float: 0
+            Float: 4
           }
           Overrides {
             Name: "cs:RotationSpeed"
@@ -732,6 +732,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Shared Pickup"
 }

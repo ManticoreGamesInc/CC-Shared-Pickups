@@ -19,6 +19,8 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 4471025079766054073
+  ChildIds: 4872265629248197560
+  ChildIds: 2684657116008999692
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +38,79 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2684657116008999692
+  Name: "Advanced Assault Rifle"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13859206571032135798
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Assault Rifle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 100
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16053504749480905727
+    }
+  }
+}
+Objects {
+  Id: 4872265629248197560
+  Name: "Damageable Crate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9509723810745204358
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Damageable Crate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 650
+            Y: 400
+          }
+        }
+        Overrides {
+          Name: "Damageable.DestroyOnDeathNetworkedTemplateId"
+          AssetReference {
+            Id: 12962806161751162390
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7405323030387644165
+    }
+  }
 }
 Objects {
   Id: 4471025079766054073

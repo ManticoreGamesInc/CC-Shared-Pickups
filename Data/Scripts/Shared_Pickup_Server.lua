@@ -14,6 +14,15 @@ local players = {}
 
 local function on_trigger_enter(trigger, other)
 	if(other:IsA("Player")) then
+		if(players[other] == nil) then
+			players[other] = {
+
+				respawned = true,
+				elapsed = 0
+
+			}
+		end
+
 		if(players[other].respawned) then
 			players[other].respawned = false
 			players[other].elapsed = 0
@@ -21,7 +30,7 @@ local function on_trigger_enter(trigger, other)
 			if(string.len(RESOURCE_KEY) > 0 and RESOURCE_AMOUNT > 0) then
 				other:AddResource(RESOURCE_KEY, RESOURCE_AMOUNT)
 			end
-			
+
 			for player, _ in pairs(players) do
 				if(not Game.FindPlayer(player.id)) then
 					players[player] = nil
@@ -39,7 +48,7 @@ end
 
 local function on_player_joined(player)
 	players[player] = {
-			
+
 		respawned = true,
 		elapsed = 0
 

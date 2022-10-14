@@ -1,11 +1,11 @@
 Assets {
-  Id: 2175867351607588096
-  Name: "Shared_Pickup_Client"
+  Id: 10139659402558168400
+  Name: "WeaponReticleUIClient"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
     }
   }
   SerializationVersion: 119
-  VirtualFolderPath: "Shared Pickup"
+  VirtualFolderPath: "Weapon"
 }
