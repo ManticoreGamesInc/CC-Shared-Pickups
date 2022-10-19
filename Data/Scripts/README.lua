@@ -16,6 +16,11 @@ pickup.
 This component makes use of the dormancy feature so that it can still be networked, but not replicate.
 
 -----------------------------------------------------------------------------------------------------------------
+====
+NOTE
+====
+
+If the Dependent folders are empty in Project Content under Imported Content for this component, save and reload the project to fix it.
 
 ==========
 How to use
